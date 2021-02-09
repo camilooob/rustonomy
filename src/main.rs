@@ -17,6 +17,21 @@ struct Humans {
 }
 
 #[derive(Debug)]
+struct Planets {
+	name:String,
+	mapa: Dimension,
+}
+
+#[derive(Debug)]
+struct Dimension {
+	x:u8,
+	y:u8,
+	z:u8
+	
+	
+}
+
+#[derive(Debug)]
 struct Physineeds {
 	breath:u8,
 	food:u8,
@@ -118,7 +133,18 @@ fn main() {
 		brainfly: Skyneeds{goal:String::from("None"),
 			points:0},
 			};
+
+	let t1 = Planets {
+		name:String::from("Tierra"),
+		mapa: Dimension {x:0,
+			y:0,
+			z:0}
+	};
 	println!("{:?}",h1);
 	println!("{:?}",h2);
+	println!("{:?}",t1);
 
 }
+
+// TODO Agregar una grid en consola para ubicarme en el mapa. 
+// TODO Crear comina en el mapa
