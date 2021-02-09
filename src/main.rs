@@ -147,4 +147,4 @@ fn main() {
 }
 
 // TODO Agregar una grid en consola para ubicarme en el mapa. 
-// TODO Crear comina en el mapa
+// TODO Crear comida en el mapa
