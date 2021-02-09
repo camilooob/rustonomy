@@ -115,7 +115,7 @@ fn main() {
 		brainsocial: Esteemneeds {	prestige:0,
 			rol:String::from("None"),
 			skill:String::from("None")},
-		brainfly: Skyneeds{	goal:String::from("None"),
+		brainfly: Skyneeds{goal:String::from("None"),
 			points:0},
 			};
 	println!("{:?}",h1);
