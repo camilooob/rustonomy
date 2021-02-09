@@ -66,7 +66,7 @@ fn main() {
     let h1= Humans {
 		name:String::from("Adan"),
 		gender:GenderCategory::Male,
-		body: Physineeds { 	breath:0,
+		body: Physineeds {breath:0,
 			food:0,
 			hydration:0,
 			sleep:0,
@@ -79,22 +79,22 @@ fn main() {
 		brainsafe: Safetyneeds {shelter:0,
 			salud:0,
 			seguridad:0},
-		brainlove: Loveneeds {	family:0,
+		brainlove: Loveneeds {family:0,
 			friendship:0,
 			intimacy:0,
 			love:0,
 			social:0},
-		brainsocial: Esteemneeds {	prestige:0,
+		brainsocial: Esteemneeds {prestige:0,
 			rol:String::from("None"), //enum
 			skill:String::from("None")},
-		brainfly: Skyneeds{	goal:String::from("None"),    // enum
-			points:0, },
+		brainfly: Skyneeds{goal:String::from("None"),    // enum
+			points:0},
 			};
 	
 	let h2= Humans {
 		name:String::from("Eva"),
 		gender:GenderCategory::Female,
-		body: Physineeds { 	breath:0,
+		body: Physineeds { breath:0,
 			food:0,
 			hydration:0,
 			sleep:0,
@@ -107,12 +107,12 @@ fn main() {
 		brainsafe: Safetyneeds {shelter:0,
 			salud:0,
 			seguridad:0},
-		brainlove: Loveneeds {	family:0,
+		brainlove: Loveneeds {family:0,
 			friendship:0,
 			intimacy:0,
 			love:0,
 			social:0},
-		brainsocial: Esteemneeds {	prestige:0,
+		brainsocial: Esteemneeds {prestige:0,
 			rol:String::from("None"),
 			skill:String::from("None")},
 		brainfly: Skyneeds{goal:String::from("None"),
